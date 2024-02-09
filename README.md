@@ -13,7 +13,7 @@ The authors are unable due to license restrictions to make the dataset open acce
 See https://github.com/karolpiczak/ESC-50.
 
 ## Training and evaluation
-We have made the code base [gin configurable](https://github.com/google/gin-config), which is a light-weight configuration framework. See `configs/tot.gin` for an example. Example run:
+We have made the codebase [gin configurable](https://github.com/google/gin-config), which is a light-weight configuration framework. See `configs/tot.gin` for an example. Example run:
 ```
 python train.py --gin_path=configs/tot.gin --save_dir=path/to/save_dir
 ```
