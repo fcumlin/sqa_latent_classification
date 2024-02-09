@@ -1,6 +1,6 @@
 # Latent Feature Classification in Non-intrusive Speech Quality Assessment
 
-Author: Fredrik Cumlin (fcumlin@gmail.com), Xinyu Liang (hopeliang990504@gmail.com)
+Authors: Fredrik Cumlin (fcumlin@gmail.com), Xinyu Liang (hopeliang990504@gmail.com)
 
 This is the official implementation of latent distortion classification in non-intrusive speech quality assessment from the paper "Latent of DNN-based Speech Quality Assessment Method Classifies Distortions".
 
