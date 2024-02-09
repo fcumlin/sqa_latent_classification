@@ -26,4 +26,4 @@ python esc50_eval.py
 ## Acknowledgement
 We would like to thank our co-authors of the paper for great insights and discussions (without consideration of order): Victor Ungureanu (ungureanu@google.com), Chandan K.A. Reddy (chandanka@google.com), Christian Schüldt (cschuldt@google.com), and Saikat Chatterjee (sach@kth.se).
 
-We also would like to thank the Knut and Alice Wallenberg Foundation for providing computation resources at the Berzelius cluster at the National Supercomputer Centre.
+We also would like to thank the Knut and Alice Wallenberg Foundation for providing computational resources at the Berzelius cluster at the National Supercomputer Centre.
