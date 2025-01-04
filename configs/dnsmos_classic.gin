@@ -1,0 +1,35 @@
+# Classic DNSMOS architecture and stft training.
+
+# ------------------------------
+# STFT
+# ------------------------------
+stft:
+    win_length = 320
+    hop_length = 160
+    n_fft = 320
+    use_log = True
+    use_magnitude = True
+    n_mels = 120
+    
+# ------------------------------
+# Dataset
+# ------------------------------
+LibriAugmented:
+    label_type = 'visqol'
+    sample_rate = 16000
+    use_multi_augmentations = True
+
+get_dataloader:
+    num_workers = 8
+    shuffle = True
+
+# ------------------------------
+# Training loop
+# ------------------------------
+TrainingLoop:
+    model = @DnsmosClassic
+    num_epochs = 500
+    loss_type = 'mse'
+    learning_rate = 1e-4
+    num_latent_features = 64
+    batch_size_train = 32
