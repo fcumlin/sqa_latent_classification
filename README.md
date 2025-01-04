@@ -7,7 +7,7 @@ This is the official implementation of latent distortion classification in non-i
 ## Download datasets
 
 ### LibriAugmented
-The authors are unable to make the dataset open access due to licensing restrictions. Note that we have used [LibriSpeech](https://www.openslr.org/94/) as a clean speech dataset, and distorted the signals using augmentations from (audiomentations)[https://github.com/iver56/audiomentations].
+The authors are unable to make the dataset open access due to licensing restrictions. Note that we have used [LibriSpeech](https://www.openslr.org/94/) as a clean speech dataset, and distorted the signals using augmentations from [audiomentations](https://github.com/iver56/audiomentations).
 
 ### ESC-50 dataset
 See https://github.com/karolpiczak/ESC-50.
